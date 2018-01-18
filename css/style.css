@@ -1,0 +1,161 @@
+/* General Styling */
+
+* {
+  font-family : 'Raleway', sans-serif;
+}
+
+button {
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 75px;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+h3 {
+  font-family: 'Pacifico', cursive;
+}
+
+h5 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 24px;
+}
+
+/* Navigation Bar */
+
+#headerToggle {
+  width: 45px;
+}
+
+.navbar-nav {
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-nav li {
+  float: none;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  background-image: url("../images/headerTop.jpg");
+  height: 565px;
+  background-size: cover;
+}
+
+header h1 {
+  position: relative;
+  top: 100px;
+  line-height: 150px;
+}
+
+/* Transitions */
+
+#layer img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+/* Content Pages (About, Experience, Projects, Contact) */
+
+#one {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: black;
+}
+
+#one button {
+  width: 65px;
+  height: 50px;
+  font-size: 12px;
+}
+
+#one h3 {
+  color: white;
+}
+
+#one h4 {
+  color: white;
+}
+
+#one h5 {
+  color: white;
+}
+
+#one img {
+  height: 50px;
+  width: 50px;
+}
+
+#one p {
+  color: LightGray;
+}
+
+#two {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+}
+
+#two h3 {
+  color: black;
+}
+
+#two h4 {
+  color: black;
+}
+
+#two h5 {
+  color: black;
+}
+
+/* Projects */
+
+#centerImage {
+  display: block;
+  margin: 0 auto;
+}
+
+.thumbnail {
+  background-color: black;
+  border: 2px solid white;
+}
+
+.caption h5 {
+  color: white;
+}
+
+.caption img {
+  vertical-align: middle;
+}
+
+.btn-primary {
+  width: 100%;
+}
+
+.platforms {
+  text-align: center;
+}
+
+/* Footer */
+
+input {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#footerIcon {
+  width: 30px;
+  height: 30px;
+}
+
+#message {
+  width: 100%;
+}

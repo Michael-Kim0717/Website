@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112695176-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112695176-1');
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Pacifico|Raleway" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <div class="container-fluid" id="one">
+      <h1 class="text-center"> Budgeting / Wallet App </h1>
+      <a class="btn btn-info" href="index.html">
+        <span class="glyphicon glyphicon-home"> </span>
+      </a>
+    </div>
+
+    <div id="layer">
+      <img src="./images/layer2.jpg" width="2560" height="270">
+    </div>
+
+    <div class="container" id="two">
+      <h2> Status : UNRELEASED, used for personal purposes, but may revisit in the future. </h2>
+      <br>
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-lg-4 col-md-5 col-sm-6">
+            <img src="./BudgetWalletSS/home.png" width="270" height="480">
+          </div>
+          <div class="col-lg-8 col-md-7 col-sm-6">
+            <p>
+              <h5> Home Screen : </h5>
+              <br>
+              Once the user enters the application, he/she is greeted with a screen that
+              they would use to manually enter in their transactions.
+              <br> <br>
+              The 'Value' label shows the total amount of money for the user's accounts.
+              If a specific category is selected, the amount of money of that specific
+              account is shown instead.
+              <br> <br>
+              The 'Category' selector allows the user to pick which account they would like to view and tinker with.
+              <br> <br>
+              The 'Amount Used / Deposited' field would be the area that the user would enter in their transaction information.
+              For example, if you were to get paid $10 in tips for the day, you would enter in 10, press the '+' button, and the $10 would be added into your account.
+              <br> <br>
+              Lastly the 'How Money Was Used / Deposited' field is where the user would enter how the money was used or received.
+              For example, if you received your tips from working at Olive Garden for the day, you would enter "Olive Garden Tips" (or whatever you want).
+            </p>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+            <img src="./BudgetWalletSS/categories.png" width="270" height="480">
+          </div>
+
+          <div class="col-lg-8 col-md-8 col-sm-6">
+            <p>
+              <h5> Categories Screen : </h5>
+              <br>
+              This is the screen where the user's journey begins.
+              He/she can't necessarily see the values of their accounts until they enter in an account.
+              Otherwise, this is the screen they would go to if they wanted to see all the values of their accounts individually or if they want to add another account.
+              <br> <br>
+              By pressing 'Add Category', the user is given the option to enter in a name for their account as well as a previously existing balance.
+              If you know the exact amount of money you have in your Starbuck's gift card, enter in that information and it will display for you.
+              <br> <br>
+              Lastly, the user the option to delete an account. In the case that you accidently press the DELETE button, an alert will appear if they have existing transactions in the account.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 hidden-xs">
+            <img src="./BudgetWalletSS/categories.png" width="270" height="480">
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-5 col-sm-6">
+            <img src="./BudgetWalletSS/transactions.png" width="270" height="480">
+          </div>
+          <div class="col-lg-8 col-md-7 col-sm-6">
+            <p>
+              <h5> Transaction Screen : </h5>
+              <br>
+              On this screen, it displays all the transactions the user has manually entered in the past.
+              <br> <br>
+              If you want to specifically view all the transactions you've done using your McDonald's gift card,
+              you could always select that account in the 'Category Selection' up top.
+            </p>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+            <img src="./BudgetWalletSS/statistics.png" width="270" height="480">
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-6">
+            <p>
+              <h5> Statistics Screen : </h5>
+              <br>
+              Purely for aesthetic and informational purposes, this screen is
+              mainly here to show minor statistics about where the user's money is going.
+              <br> <br>
+              Similar to the transaction screen, if they want to view the
+              statistics of a specific account, you can easily navigate between
+              accounts using the selector.
+              <br> <br>
+              Four major statistics I found interesting were "How much money
+              did I spend since I downloaded this app?", "Where do I go the
+              most?", "What was my biggest paycheck?", and "What was my
+              largest purchase?". So because those were all I could think of,
+              I decided to implement them all.
+              <br> <br>
+              For a more casual list of statistics, I have also implemented the
+              ability to view the total amount of money spent at every single
+              manually entered location.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 hidden-xs">
+            <img src="./BudgetWalletSS/statistics.png" width="270" height="480">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="layer">
+      <img src="./images/layer3.jpg" width="2560" height="270">
+    </div>
+
+    <div class="container-fluid" id="one">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4 class="text-right"> &copy; Michael Kim </h4>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
